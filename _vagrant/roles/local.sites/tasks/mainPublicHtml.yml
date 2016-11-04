@@ -22,7 +22,7 @@
 
 - name: Public Html Link
   file:
-    src: /vagrant/public_html
+    src: /vagrant/web
     dest: /var/www/www.gozma14.local/public_html
     owner: vagrant
     group: vagrant
