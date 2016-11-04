@@ -3,6 +3,7 @@
 namespace app\controllers;
 
 use yii\web\Controller;
+use yii\web\ErrorAction;
 
 /**
  * Class ErrorController
@@ -15,7 +16,7 @@ class ErrorController extends Controller
     {
         return [
             'index' => [
-                'class' => 'yii\web\ErrorAction',
+                'class' => ErrorAction::className(),
             ],
         ];
     }
