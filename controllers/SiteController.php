@@ -2,15 +2,15 @@
 
 namespace app\controllers;
 
-use app\components\web\actions\SiteAboutAction;
-use app\components\web\actions\SiteIndexAction;
+use app\components\actions\SiteAboutAction;
+use app\components\actions\SiteIndexAction;
 use yii\web\Controller;
 use yii\web\ErrorAction;
 
 /**
  * Class SiteController
  *
- * @package app\components\web
+ * @package app\controllers
  */
 class SiteController extends Controller
 {

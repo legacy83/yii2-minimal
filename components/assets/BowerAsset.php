@@ -1,13 +1,13 @@
 <?php
 
-namespace app\assets;
+namespace app\components\assets;
 
 use yii\web\AssetBundle;
 
 /**
  * Class BowerAsset
  *
- * @package app\assets
+ * @package app\components\assets
  */
 class BowerAsset extends AssetBundle
 {

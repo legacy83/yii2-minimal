@@ -1,13 +1,13 @@
 <?php
 
-namespace app\components\web\actions;
+namespace app\components\actions;
 
 use yii\base\Action;
 
 /**
  * Class SiteIndexAction
  *
- * @package app\components\web\actions
+ * @package app\components\actions
  */
 class SiteIndexAction extends Action
 {
