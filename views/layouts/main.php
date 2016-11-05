@@ -4,8 +4,8 @@
 /* @var $content string */
 
 \yii\web\YiiAsset::register( $this );
-\app\components\assets\BowerAsset::register( $this );
-\app\components\assets\AppAsset::register( $this );
+\app\assets\BowerAsset::register( $this );
+\app\assets\AppAsset::register( $this );
 ?>
 
 <?php $this->beginPage(); ?>

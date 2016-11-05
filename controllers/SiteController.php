@@ -2,8 +2,8 @@
 
 namespace app\controllers;
 
-use app\components\actions\SiteAboutAction;
-use app\components\actions\SiteIndexAction;
+use app\actions\SiteAboutAction;
+use app\actions\SiteIndexAction;
 use yii\web\Controller;
 use yii\web\ErrorAction;
 

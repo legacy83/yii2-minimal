@@ -1,13 +1,13 @@
 <?php
 
-namespace app\components\assets;
+namespace app\assets;
 
 use yii\web\AssetBundle;
 
 /**
  * Class AppAsset
  *
- * @package app\components\assets
+ * @package app\assets
  */
 class AppAsset extends AssetBundle
 {
