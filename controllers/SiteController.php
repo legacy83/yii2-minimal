@@ -1,6 +1,6 @@
 <?php
 
-namespace app\components\web;
+namespace app\controllers;
 
 use app\components\web\actions\SiteAboutAction;
 use app\components\web\actions\SiteIndexAction;

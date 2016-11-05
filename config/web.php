@@ -35,10 +35,6 @@ return [
 
     ],
 
-    'controllerMap' => [
-        'site' => '\app\components\web\SiteController',
-    ],
-
     'params' => require( __DIR__ . '/params.php' ),
 
 ];
