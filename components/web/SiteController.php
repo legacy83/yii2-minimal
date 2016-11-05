@@ -1,6 +1,6 @@
 <?php
 
-namespace app\controllers;
+namespace app\components\web;
 
 use app\components\web\actions\SiteAboutAction;
 use app\components\web\actions\SiteIndexAction;
@@ -10,7 +10,7 @@ use yii\web\ErrorAction;
 /**
  * Class SiteController
  *
- * @package app\controllers
+ * @package app\components\web
  */
 class SiteController extends Controller
 {
