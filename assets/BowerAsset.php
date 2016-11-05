@@ -18,7 +18,4 @@ class BowerAsset extends AssetBundle
     public $js = [
         'bootstrap/dist/js/bootstrap.js',
     ];
-    public $depends = [
-        'yii\web\JqueryAsset',
-    ];
 }

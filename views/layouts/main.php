@@ -3,6 +3,8 @@
 /* @var $this \yii\web\View */
 /* @var $content string */
 
+\yii\web\YiiAsset::register($this);
+\app\assets\BowerAsset::register($this);
 \app\assets\AppAsset::register( $this );
 ?>
 
