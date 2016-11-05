@@ -4,9 +4,58 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "74c4a4bfc2b49dd598c516a0b304e637",
-    "content-hash": "a3374e5c722e3b1cc52a916766dca808",
+    "hash": "845aa692421e9b8530a41545c3f1cc38",
+    "content-hash": "3a669867874b8f5398b7ed148734043d",
     "packages": [
+        {
+            "name": "bower-asset/bootstrap",
+            "version": "v3.3.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twbs/bootstrap.git",
+                "reference": "0b9c4a4007c44201dce9a6cc1a38407005c26c86"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/0b9c4a4007c44201dce9a6cc1a38407005c26c86",
+                "reference": "0b9c4a4007c44201dce9a6cc1a38407005c26c86",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/jquery": ">=1.9.1,<4.0"
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": [
+                    "less/bootstrap.less",
+                    "dist/js/bootstrap.js"
+                ],
+                "bower-asset-ignore": [
+                    "/.*",
+                    "_config.yml",
+                    "CNAME",
+                    "composer.json",
+                    "CONTRIBUTING.md",
+                    "docs",
+                    "js/tests",
+                    "test-infra"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
+            "keywords": [
+                "css",
+                "framework",
+                "front-end",
+                "js",
+                "less",
+                "mobile-first",
+                "responsive",
+                "web"
+            ]
+        },
         {
             "name": "bower-asset/jquery",
             "version": "2.2.4",
@@ -251,37 +300,6 @@
             "time": "2016-07-16 12:58:58"
         },
         {
-            "name": "trsenna/gozma14",
-            "version": "0.6.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/trsenna/gozma14.git",
-                "reference": "012c24e72b8820bb71a04ab832611d01a4ac6feb"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/trsenna/gozma14/zipball/012c24e72b8820bb71a04ab832611d01a4ac6feb",
-                "reference": "012c24e72b8820bb71a04ab832611d01a4ac6feb",
-                "shasum": ""
-            },
-            "type": "project",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "Thiago Senna",
-                    "homepage": "http://thremes.com.br"
-                }
-            ],
-            "description": "Easily vagrant up ubuntu/trusty64 machines with ansible roles.",
-            "support": {
-                "issues": "https://github.com/trsenna/gozma14/issues",
-                "source": "https://github.com/trsenna/gozma14"
-            },
-            "time": "2016-07-15 00:43:01"
-        },
-        {
             "name": "yiisoft/yii2",
             "version": "2.0.10",
             "source": {
@@ -423,7 +441,39 @@
             "time": "2016-02-06 00:49:24"
         }
     ],
-    "packages-dev": [],
+    "packages-dev": [
+        {
+            "name": "trsenna/gozma14",
+            "version": "0.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/trsenna/gozma14.git",
+                "reference": "012c24e72b8820bb71a04ab832611d01a4ac6feb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/trsenna/gozma14/zipball/012c24e72b8820bb71a04ab832611d01a4ac6feb",
+                "reference": "012c24e72b8820bb71a04ab832611d01a4ac6feb",
+                "shasum": ""
+            },
+            "type": "project",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Thiago Senna",
+                    "homepage": "http://thremes.com.br"
+                }
+            ],
+            "description": "Easily vagrant up ubuntu/trusty64 machines with ansible roles.",
+            "support": {
+                "issues": "https://github.com/trsenna/gozma14/issues",
+                "source": "https://github.com/trsenna/gozma14"
+            },
+            "time": "2016-07-15 00:43:01"
+        }
+    ],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": [],
