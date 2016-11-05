@@ -31,6 +31,9 @@ return [
         'urlManager' => [
             'enablePrettyUrl' => TRUE,
             'showScriptName' => FALSE,
+            'rules' => [
+                '<alias:\w+>' => 'site/<alias>',
+            ],
         ],
 
     ],
