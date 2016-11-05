@@ -1,6 +1,6 @@
 {
-  "name": "trsenna/localGozma14LAMP",
-  "description": "Easily vagrant up my gozma14 LAMP stack locally.",
+  "name": "trsenna/yii2-minimal",
+  "description": "Yii 2 Minimal Project Template",
   "type": "project",
   "license": "BSD-3-Clause",
   "support": {
@@ -8,6 +8,12 @@
     "source": "https://github.com/trsenna/yii2-minimal"
   },
   "minimum-stability": "stable",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/trsenna/gozma14"
+    }
+  ],
   "require": {
     "php": ">=5.4.0",
     "yiisoft/yii2": "~2.0.10",
@@ -24,11 +30,5 @@
       "npm-asset-library": "vendor/npm",
       "bower-asset-library": "vendor/bower"
     }
-  },
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/trsenna/gozma14"
-    }
-  ]
+  }
 }
