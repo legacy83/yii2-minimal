@@ -3,8 +3,8 @@
 /* @var $this \yii\web\View */
 /* @var $content string */
 
-\yii\web\YiiAsset::register($this);
-\app\assets\BowerAsset::register($this);
+\yii\web\YiiAsset::register( $this );
+\app\assets\BowerAsset::register( $this );
 \app\assets\AppAsset::register( $this );
 ?>
 
@@ -33,7 +33,7 @@
             ] ); ?>
         </nav>
         <h3 class="text-muted">
-            <?= \yii\helpers\Html::a( 'Yii2 Minimal', \yii\helpers\Url::to( [ 'site/index' ] ) ); ?>
+            <?= \yii\helpers\Html::a( 'Yii2 Minimal', \yii\helpers\Url::home() ); ?>
         </h3>
     </div>
 
