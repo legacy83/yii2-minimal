@@ -7,10 +7,10 @@
 $this->title = $name;
 ?>
 
-<h1><?= \yii\helpers\Html::encode( $this->title ) ?></h1>
+<h1><?= \yii\helpers\Html::encode( $this->title ); ?></h1>
 
 <div class="alert alert-danger">
-    <?= nl2br( \yii\helpers\Html::encode( $message ) ) ?>
+    <?= nl2br( \yii\helpers\Html::encode( $message ) ); ?>
 </div>
 
 <p>The above error occurred while the Web server was processing your request.</p>
