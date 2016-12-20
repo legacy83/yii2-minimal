@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8e1dbc9a47f7c79e786fe1eb9031aa70",
-    "content-hash": "74d0355a70646da017c35b589d1c6395",
+    "hash": "a7f0e9ede0c23143464711f908f3baf3",
+    "content-hash": "2e5438f2c885ad951535529e15f645d2",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -444,16 +444,16 @@
     "packages-dev": [
         {
             "name": "trsenna/gozma14",
-            "version": "0.6.0",
+            "version": "0.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/trsenna/gozma14.git",
-                "reference": "012c24e72b8820bb71a04ab832611d01a4ac6feb"
+                "reference": "14dfbf976d65590ac916e7775e972e7cb9380270"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/trsenna/gozma14/zipball/012c24e72b8820bb71a04ab832611d01a4ac6feb",
-                "reference": "012c24e72b8820bb71a04ab832611d01a4ac6feb",
+                "url": "https://api.github.com/repos/trsenna/gozma14/zipball/14dfbf976d65590ac916e7775e972e7cb9380270",
+                "reference": "14dfbf976d65590ac916e7775e972e7cb9380270",
                 "shasum": ""
             },
             "type": "project",
@@ -471,7 +471,7 @@
                 "issues": "https://github.com/trsenna/gozma14/issues",
                 "source": "https://github.com/trsenna/gozma14"
             },
-            "time": "2016-07-15 00:43:01"
+            "time": "2016-12-19 20:29:39"
         }
     ],
     "aliases": [],
