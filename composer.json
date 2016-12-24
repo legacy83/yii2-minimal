@@ -20,7 +20,7 @@
     "bower-asset/bootstrap": "3.3.*"
   },
   "require-dev": {
-    "trsenna/gozma14": "0.8.0"
+    "trsenna/gozma14": "1.0.0"
   },
   "config": {
     "process-timeout": 1800

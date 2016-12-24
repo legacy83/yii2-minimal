@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a7f0e9ede0c23143464711f908f3baf3",
-    "content-hash": "2e5438f2c885ad951535529e15f645d2",
+    "hash": "0f8132e6534bd9ca0d5ff776efc40bf4",
+    "content-hash": "c21c9e575bef5be6c77407b13e6eed75",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -395,20 +395,23 @@
         },
         {
             "name": "yiisoft/yii2-composer",
-            "version": "2.0.4",
+            "version": "2.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-composer.git",
-                "reference": "7452fd908a5023b8bb5ea1b123a174ca080de464"
+                "reference": "3f4923c2bde6caf3f5b88cc22fdd5770f52f8df2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-composer/zipball/7452fd908a5023b8bb5ea1b123a174ca080de464",
-                "reference": "7452fd908a5023b8bb5ea1b123a174ca080de464",
+                "url": "https://api.github.com/repos/yiisoft/yii2-composer/zipball/3f4923c2bde6caf3f5b88cc22fdd5770f52f8df2",
+                "reference": "3f4923c2bde6caf3f5b88cc22fdd5770f52f8df2",
                 "shasum": ""
             },
             "require": {
                 "composer-plugin-api": "^1.0"
+            },
+            "require-dev": {
+                "composer/composer": "^1.0"
             },
             "type": "composer-plugin",
             "extra": {
@@ -438,22 +441,22 @@
                 "extension installer",
                 "yii2"
             ],
-            "time": "2016-02-06 00:49:24"
+            "time": "2016-12-20 13:26:02"
         }
     ],
     "packages-dev": [
         {
             "name": "trsenna/gozma14",
-            "version": "0.8.0",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/trsenna/gozma14.git",
-                "reference": "14dfbf976d65590ac916e7775e972e7cb9380270"
+                "reference": "78cebb800aac60a9dc87716b6d897a403b404381"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/trsenna/gozma14/zipball/14dfbf976d65590ac916e7775e972e7cb9380270",
-                "reference": "14dfbf976d65590ac916e7775e972e7cb9380270",
+                "url": "https://api.github.com/repos/trsenna/gozma14/zipball/78cebb800aac60a9dc87716b6d897a403b404381",
+                "reference": "78cebb800aac60a9dc87716b6d897a403b404381",
                 "shasum": ""
             },
             "type": "project",
@@ -471,7 +474,7 @@
                 "issues": "https://github.com/trsenna/gozma14/issues",
                 "source": "https://github.com/trsenna/gozma14"
             },
-            "time": "2016-12-19 20:29:39"
+            "time": "2016-12-23 23:25:33"
         }
     ],
     "aliases": [],
